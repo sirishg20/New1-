@@ -1,1 +1,73 @@
 indjcndalknad
+Unix commands list
+
+CAT  Command list
+
+Cat * — it shows no empty files
+Cat -n — It shows no of files
+Cat -b —ca
+Stat file1— it shows status of the file
+Cd ~ - it will take to the home directory
+Cd /-it will take to the  file directory (user,sbin,dev,temp,)
+Cd - it will take to the previous directory 
+
+(
+Cat >file1
+Kadjkladja
+Ndalkfjkfj;
+
+To save above file ctrl+d
+)
+
+
+
+
+To remove directory {rm -R} R— recursive
+First it remove files or sub directory and after it removes total files.
+
+Verbose — it shows the action of the file 
+
+Copy command
+
+Cp -v file1   /users/sirishgangabathula/siri1/last
+
+Output 
+The content will be last filer
+
+MV Command
+
+Mv -v file2  /users/sirishgangabathula/siri1/
+
+We can rename hidden files to normal files ( .dir to dir )
+
+Ls-F — it shows forward directory and 
+Ls - i —it shows I node numbers whenever system crashes i node number recover the data ( 270109-dir1, 270057-dir2)
+Ls —classify 
+
+-rw-r--r--  1 sirishgangabathula  staff   67 Feb  3 11:14 sirish
+1-link, sirishgangabathula-user, staff- grwoupowner, 67—bytes, feb-month you created
+
+META CHARACTERS
+
+For example if you have 1 single character and 2 characters, 3 characters
+?—it shows single characters
+??-it shows double characters
+???-it shows three characters
+??——n —it shows n no of characters
+
+A B  AB BC ABC DFG
+
+Ls ? — A B     LS ?? - AB AB   LS ??? - ABC DFG
+
+Rm ? — A B    RM ?? - AB AB  RM???- ABC DFG
+
+Rmdir ?- siri/
+
+*astrick
+
+*a—it shows how many no of a  files
+*b- it shows how many no of b files
+
+You want check no of a, b,c,d files at a time 
+[abcd]* - it shows below words
+ a aa b bbbb ccccc ddddddd asg,bnc,das
